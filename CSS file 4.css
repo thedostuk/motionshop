@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+#header{
+    background: linear-gradient(90deg, #72072D 0%, #FF005C 100%);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+}
+
+.logo:hover{
+     border-radius: 17px;
+    color: #FFFFFF;
+
+}
+daf{
+display: flex;
+    justify-content: space-between;
+}
+.search{
+    width: 718px;
+    height: 43px;
+    background: rgba(196, 196, 196, 0.14);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0 35px;
+    outline: none;
+    margin: 0 0 0 30px;
+}
+#hero{
+    background: url("./img/dostuk03.png");
+}
+.hero{
+    display:flex ;
+    align-items: center;
+}
+.blockImg{
+    display: flex;
+    flex-direction: column;
+}
+.blockImage {
+    widt: 200px;
+    margin: 20px;
+}
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.loo{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 75px;
+    padding: 25px;
+}
+.color-title{
+    font-size: 25px;
+    margin: 0 0 0 35px;
+    color: #72072D;
+}
+.lets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+.hello{
+    position: absolute;
+    width: 230px;
+    height: 45px;
+    border: 1.5px solid #D118A8;
+    border-radius: 40px;
+    line-height: 300px;
+    padding: 0 60px;
+    outline: none;
+
+
+}
+.das{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    right: 50px;
+    top: 480px;
+    background: linear-gradient(270.73deg, #FF005C 0.7%, #72072D 89.36%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.dos{
+    font-size: 25px;
+    line-height: 60px;
+    color: #72072D;
+    margin: 0 100px;
+
+}
+.class{
+    line-height: 40px;
+    margin: 0 0 0 90px;
+}
+.kil{
+    background: linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%);
+    padding: 90px;
+}
+.jok{
+    align-items: center;
+    padding: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.link{
+    line-height: 35px;
+}
+.height{
+    line-height: 35px;
+}
+.line{
+    width: 110%;
+    height: 1px;
+    background: white;
+    margin: 20px;
+}
+.coll{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
